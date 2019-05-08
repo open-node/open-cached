@@ -4,9 +4,9 @@
   "description": "cache methods with ioredis",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ./src/*",
+    "lint": "eslint ./index.js",
     "test": "jest",
-    "test:watch": "jest --watch src",
+    "test:watch": "jest --watch .",
     "readme": "d=`head -n 30 README.md` && t=`tail -n 32 README.md` && (echo \"$d\n\n\n\" && documentation build index.js -f md && echo \"\n\n$t\n\") > README.md",
     "release": "npm run readme && npm run docs && npm publish --registry=https://registry.npmjs.org",
     "ci": "npm run lint && npm run test -- --coverage"
