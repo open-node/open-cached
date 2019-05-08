@@ -1,12 +1,12 @@
 # Open-cached
 
-Standard cache function, Base on ioredis
+async cache function, Base on ioredis with async/await
 
 [![Build status](https://api.travis-ci.org/open-node/open-cached.svg?branch=master)](https://travis-ci.org/open-node/open-cached)
 [![codecov](https://codecov.io/gh/open-node/open-cached/branch/master/graph/badge.svg)](https://codecov.io/gh/open-node/open-cached)
 
 ## Node version
-<pre> >= 6 </pre>
+<pre> >= 8 </pre>
 
 
 ## Installation
